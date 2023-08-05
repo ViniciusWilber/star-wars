@@ -1,11 +1,25 @@
 #cabecalho{
-    width: 100%;
+    max-width: 100%;
     display: flex;
-    background-color: black;
-    justify-content:space-between;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
 }
 .quadrado{
-    width: 50px; 
-    height: 50px;
-    margin: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.alianca{
+    width: 45%;
+}
+.logo{
+    width: 50%;
+}
+.republica{
+    width: 6%;
 }
