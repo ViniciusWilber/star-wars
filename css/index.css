@@ -1,7 +1,5 @@
 #cabecalho{
     max-width: 100%;
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
     display: flex;
    margin: 0;
    padding: 0;
@@ -10,27 +8,19 @@
 }
 .quadrado{
     max-width: 100%;
-    margin: 0px;
+    margin: 30px;
     padding: 0;
     box-sizing: border-box;
 }
-/* #alianca{ */
-/* grid-area: alianca; */
-/* } */
+#alianca{
+margin-left: 100px;
+
+}
 #logo{
+    /* background-color: yellow; */
     align-items: center;
-    /* grid-area: logo; */
 }
 #republica{
+    /* background-color: red; */
     align-items: end;
-    /* grid-area: republica; */
 }
-/* #alianca{
-    width: 45%;
-}
-#logo{
-    width: 50%;
-}
-#republica{
-    width: 6%;
-} */
