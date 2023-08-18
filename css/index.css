@@ -77,5 +77,6 @@ margin-left: 300px;
     height: 100%;
   }
   #carouselExampleCaptions{
-    /* max-width: 300px; */
+    max-width: 1300px
+    
   }
