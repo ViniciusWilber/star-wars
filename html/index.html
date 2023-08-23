@@ -7,17 +7,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/style.css">
     <style>
-        body{
-            background-color: blue;
-        }
         header{
             background-color: black;
         }
     </style>
 
 </head>
-<body>
+<body class="bg">
     <header>
         <div id="cabecalho">
             <div class="quadrado" id="alianca">
@@ -41,44 +39,92 @@
             </div>
         </div>
     </header> 
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../imagens/starwarsameacafantasma1.jpeg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="../imagens/starwarsAtaquedosclones2.jpeg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="../imagens/starwarsvingancadosith3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    <div id="carouselExampleCaptions"  class="carousel slide mx-auto my-5" data-bs-ride="false" >
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
       </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../imagens/starwarsameacafantasma1.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+            <h5>Episodio I</h5>
+            <p>Enquanto resgatam a Rainha Amidala, governante de um planeta pacífico invadido por forças ameaçadoras, os Cavaleiros Jedi Obi-Wan Kenobi e Qui-Gon Jinn descobrem Anakin Skywalker, uma criança prodígio de 9 anos excepcionalmente poderosa na Força.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../imagens/starwarsAtaquedosclones2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+            <h5>Episodio II</h5>
+            <p>Com a missão de proteger a Senadora Amidala, Anakin Skywalker descobre o seu amor por ela, do mesmo modo que vai conhecendo seu lado sombrio. Obi-Wan Kenobi descobre um exército de clones à medida que a Galáxia caminha para uma grande guerra.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../imagens/starwarsvingancadosith3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+            <h5>Episodio III</h5>
+            <p>Com as Guerras Clônicas se espalhando pela Galáxia, o Lorde Sith assume o controle dela e converte Anakin Skywalker para o Lado Negro, tornando-se o seu novo aprendiz, Darth Vader. Obi-Wan Kenobi enfrenta seu amigo em um duelo de sabres de luz.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../imagens/starwarsUmanovaesperanca4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+            <h5>Episodio IV</h5>
+            <p>O jovem fazendeiro Luke Skywalker é empurrado para uma galáxia de aventura quando intercepta um pedido de socorro da princesa Leia. O evento o lança em uma missão ousada para resgatá-la das garras de Darth Vader e do Império do mal.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../imagens/starwarsVteste (Personalizado).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+            <h5>Episodio V</h5>
+            <p>Os Rebeldes se separam após o ataque imperial no planeta Hoth. Enquanto Han Solo e a Princesa Leia são perseguidos pelo Império, Luke inicia seu treino como um Jedi com o Mestre Yoda, antes de enfrentar Darth Vader e descobrir sobre o seu passado.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../imagens/starwarsRertornodojedi6.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+            <h5>Episodio VI</h5>
+            <p>O Império se prepara para esmagar a Rebelião com uma Estrela da Morte mais poderosa, enquanto a frota dos Rebeldes planeja um ataque maciço contra a estação espacial. Luke Skywalker enfrenta Darth Vader em um duelo diante do terrível Imperador.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../imagens/starwarsOdespertardaforca7.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+            <h5>Episodio VII</h5>
+            <p>Enquanto surge uma nova ameaça para a galáxia, Rey, uma catadora de sucata, e Finn, um soldado imperial desertor, devem se juntar a Han Solo e Chewbacca para procurar a única esperança de restaurar a paz da galáxia. Experimente o evento cinematográfico de uma geração.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../imagens/starwarsrultimoJedi8.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+            <h5></h5>
+            <p>Após encontrar o mítico e recluso Luke Skywalker (Mark Hammil) em uma ilha isolada, a jovem Rey (Daisy Ridley) busca entender o balanço da Força a partir dos ensinamentos do mestre Jedi. Paralelamente, o Primeiro Império de Kylo Ren (Adam Driver) se reorganiza para enfrentar a Aliança Rebelde.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../imagens/starwarsAscensao9.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+            <h5>Episodio IX</h5>
+            <p>A Lucasfilm e o diretor J. J. Abrams unem forças mais uma vez para levar os espectadores em uma jornada épica por uma galáxia muito, muito distante, em uma eletrizante conclusão da inspiradora saga Skywalker, onde novas lendas nascerão e a batalha final pela liberdade ainda está por vir.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>   
 </body>
 </html>
