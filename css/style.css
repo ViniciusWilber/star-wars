@@ -9,3 +9,7 @@ body,html{
 .bg{
     background-image: url(../imagens/strelasfundo.jpg);
 }
+.alturaCard{
+    max-height: 355px;
+    object-fit: cover;
+}
