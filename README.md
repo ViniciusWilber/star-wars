@@ -1,2 +1,2 @@
 # star-wars-front
-Projeto Star Wars desenvolvido para estudo junto com Vinicius Wilber
+Projeto Star Wars desenvolvido para estudo junto com Leonardo Pavani
